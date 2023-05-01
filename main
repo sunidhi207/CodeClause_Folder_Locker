@@ -37,7 +37,7 @@ public class main {
         folderlocker.addComponents(locked, COMMAND);
         folderlocker.locker(locked);
 
-        Tray tray = new Tray(SOFTWARE_TITLE, ICON_PATH, "Protect your folder from unwanted access");
+        tray tray = new tray(SOFTWARE_TITLE, ICON_PATH, "Protect your folder from unwanted access");
         tray.showTray();
     }
 }
